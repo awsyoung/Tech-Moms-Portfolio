@@ -1,0 +1,39 @@
+.header-wrapper {
+   
+}
+
+.logo {
+
+}
+
+.main-section {
+    background-image: url(assets/susan-wilkinson-bdgdWN1sULM-unsplash.jpg);
+    background-size: cover;
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+.top-heading {
+    padding: 20px;
+    background-color: #11507a;
+    color: #c45207;
+    width: fit-content;
+    border-radius: 2px;
+    font-family: 'Syne Mono', monospace;
+    }
+
+h1 {
+    font-size: 50px;
+}
+    
+.quote {
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    color: #11507a;
+    background-color: blanchedalmond;
+    width: 200px;
+}
