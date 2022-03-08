@@ -8,10 +8,9 @@
     height: 100vh;
     background-color: #e9edf1;
     color: white;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
-    padding: 60px 100px;
+    padding: 60px;
+    border: solid 8px#145469;
+    border-radius: 2px;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -29,8 +28,8 @@ body {
 .main-section {
     /* background-image: url(assets/susan-wilkinson-bdgdWN1sULM-unsplash.jpg); */
     background-size: cover;
-    padding: 100px;
-    height: 300px;
+    /* padding: 100px; */
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
