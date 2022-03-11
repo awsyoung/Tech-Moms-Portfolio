@@ -9,7 +9,7 @@
     background-color: #e9edf1;
     color: white;
     padding: 60px;
-    border: solid 8px#145469;
+    border-right: solid 6px#145469;
     border-radius: 2px;
     position: sticky;
     position: -webkit-sticky;
@@ -25,16 +25,56 @@ body {
     height: 100%;
 }
 
+.link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    width: 70px;
+    text-align: center;
+    font-family: 'Syne Mono', monospace;
+    color: #ad7e5a;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #145469;
+    letter-spacing: 2px;
+}
+
+.footer-container {
+ 
+}
+
+.footer-flex {
+   
+}
+
+.icons-flex {
+
+}
+
+i {
+    color: #294649;
+}
 .main-section {
     /* background-image: url(assets/susan-wilkinson-bdgdWN1sULM-unsplash.jpg); */
     background-size: cover;
-    /* padding: 100px; */
+    padding: 100px;
     height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     }
     
+.big-hi {
+    font-family: 'Syne Mono', monospace;
+    font-size: 500px;
+    color: #294649;
+}
 .top-heading {
     padding: 20px;
     background-color: #145469;
