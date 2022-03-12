@@ -5,30 +5,45 @@
 }
 .nav-wrapper {
     width: 10%;
-    height: 100vh;
-    background-color: #e9edf1;
-    color: white;
+    height: 85vh;
+    background-color: #ccb7a9;
     padding: 60px;
     border-right: solid 6px#145469;
     border-radius: 2px;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 body {
     background-image: url(assets/susan-wilkinson-bdgdWN1sULM-unsplash.jpg);
     background-size: cover;
     margin: 0;
 }
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
 .logo img {
     width: 200px;
     height: 100%;
+    border: dotted white;
+    border-radius: 100px;
+    align-self: center;
 }
 
 .link-wrapper {
     display: flex;
+    flex-direction: column;
+    height: 300px;
     justify-content: space-between;
     align-items: center;
+    margin: 50px 0;
+    font-size: 25px;
 }
 
 .nav-link {
@@ -46,11 +61,11 @@ body {
 }
 
 .footer-container {
- 
+   
 }
 
 .footer-flex {
-   
+    
 }
 
 .icons-flex {
@@ -61,38 +76,67 @@ i {
     color: #294649;
 }
 .main-section {
-    /* background-image: url(assets/susan-wilkinson-bdgdWN1sULM-unsplash.jpg); */
     background-size: cover;
-    padding: 100px;
+    padding: 30px;
     height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.big-hi {
+    font-size: 300px;
+    color: #294649;
+    font-family: 'Island Moments', cursive;
+    justify-self: flex-start;
+    position: absolute;
+    bottom: 100px;
+    left: 400px;
+}    
+
+.my-photo {
+
+}
+
+.my-photo img{
+    border-radius: 100px;
+    height: 300px;
+    border: solid #ccb7a9;
+    justify-self: ;
+
+}
+
+.top-heading {
+    padding: 5px 30px 15px 30px;
+    background-color: #145469;
+    color: #c2601c;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    font-family: 'Syne Mono', monospace;
+    justify-content: flex-end;
     }
     
-.big-hi {
-    font-family: 'Syne Mono', monospace;
-    font-size: 500px;
-    color: #294649;
-}
-.top-heading {
-    padding: 20px;
-    background-color: #145469;
-    color: #ad7e5a;
-    width: fit-content;
-    border-radius: 2px;
-    font-family: 'Syne Mono', monospace;
-    }
-
-h1 {
+.top-heading h1 {
     font-size: 50px;
 }
-    
+
+.top-heading h3 {
+    font-size: 25px;
+}
+
 .quote {
     font-family: 'Lora', serif;
-    font-size: 24px;
+    /* font-family: 'Island Moments', cursive; */
+    font-size: 15px;
     color: #c0dce6;
     background-color: #ac6026;
     width: 300px;
-    padding: 20px;
+    height: fit-content;
+    border-radius: 5px;
+    padding: 5px 10px 5px 20px;
 }
