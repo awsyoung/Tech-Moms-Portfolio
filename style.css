@@ -78,13 +78,9 @@ i {
     color: #294649;
 }
 .main-section {
-    /* background-size: cover; */
     padding: 30px;
     height: 100%;
     width: 100%;
-    /* background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat; */
 }
     
 .main-flex {
@@ -99,9 +95,10 @@ i {
     font-family: 'Island Moments', cursive;
     justify-self: flex-start;
     position: absolute;
-    bottom: 100px;
-    left: 400px;
-    /* repostion */
+    bottom: 270px;
+    left: 775px;
+    transform: rotate(-10deg);
+    text-shadow: #ccb7a9;
 }    
 
 .my-photo {
@@ -109,9 +106,11 @@ i {
 }
 
 .my-photo img{
-    border-radius: 100px;
-    height: 300px;
+    border-radius: 50%;
+    height: 475px;
     border: solid #ccb7a9;
+    margin-top: 50px;
+    margin-left: 100px;
 }
 
 .top-heading {
@@ -123,7 +122,7 @@ i {
     border-radius: 5px;
     font-family: 'Syne Mono', monospace;
     justify-content: flex-end;
-    margin: 50px;
+    margin: 100px 40px 40px 40px;
 }
     
 .top-heading h1 {
@@ -134,6 +133,30 @@ i {
     font-size: 25px;
 }
 
+.top-heading h3 a:link {
+    color: #c2601c;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.top-heading h3 a:visited {
+    color: #ac6026;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .top-heading h3 a:hover {
+    color: #ad7e5a;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .top-heading h3 a:active {
+    color: #c0dce6;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 .quote {
     font-family: 'Lora', serif;
     font-size: 20px;
@@ -143,7 +166,7 @@ i {
     height: fit-content;
     border-radius: 5px;
     padding: 5px 10px 5px 20px;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 .photo-credit {
@@ -151,4 +174,11 @@ i {
     bottom: 0;
     right: 0;
     color: #ccb7a9;
+    margin: 20px;
+}
+.photo-credit a:link {
+    color:#c2601c;
+}
+.photo-credit a:visited {
+    color: #ad7e5a;
 }
