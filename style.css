@@ -123,8 +123,8 @@ i {
     border-radius: 5px;
     font-family: 'Syne Mono', monospace;
     justify-content: flex-end;
-    /* add margins */
-    }
+    margin: 50px;
+}
     
 .top-heading h1 {
     font-size: 50px;
@@ -143,12 +143,12 @@ i {
     height: fit-content;
     border-radius: 5px;
     padding: 5px 10px 5px 20px;
-    /* add margins */
+    margin-left: 200px;
 }
 
 .photo-credit {
     position:absolute;
     bottom: 0;
     right: 0;
-    /* color: white; */
+    color: #ccb7a9;
 }
