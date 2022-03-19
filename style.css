@@ -98,7 +98,7 @@ i {
     bottom: 270px;
     left: 775px;
     transform: rotate(-10deg);
-    text-shadow: #ccb7a9;
+    text-shadow: 2px 2px 0#ccb7a9;
 }    
 
 .my-photo {
